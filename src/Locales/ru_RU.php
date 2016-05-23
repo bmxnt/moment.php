@@ -5,7 +5,7 @@
 
 return array(
     "months"        => explode('_', 'Январь_Февраль_Март_Апрель_Май_Июнь_Июль_Август_Сентябрь_Октябрь_Ноябрь_Декабрь'),
-    "monthsShort"   => explode('_', 'Янв_Фев_Мрт_Апр_Май_Июн_Июл_Авг_Сен_Окт_Нбр_Дек'),
+    "monthsShort"   => explode('_', 'Янв_Фев_Мар_Апр_Май_Июн_Июл_Авг_Сен_Окт_Ноя_Дек'),
     "weekdays"      => explode('_', 'Понедельник_Вторник_Среда_Четверг_Пятница_Суббота_Воскресенье'),
     "weekdaysShort" => explode('_', 'Пн_Вт_Ср_Чт_Пт_Сб_Вс'),
     "calendar"      => array(
@@ -14,8 +14,8 @@ return array(
         "lastDay"  => '[Вчера]',
         "lastWeek" => '[Прошлой] l',
         "sameElse" => 'l',
-        "withTime" => '[at] H:i',
-        "default"  => 'd/m/Y',
+        "withTime" => '[в] H:i',
+        "default"  => 'd.m.Y',
     ),
     "relativeTime"  => array(
         "future" => 'в %s',
