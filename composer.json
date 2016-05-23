@@ -1,5 +1,5 @@
 {
-    "name": "bmxnt/moment",
+    "name": "fightbulc/moment",
     "description": "Parse, validate, manipulate, and display dates in PHP w/ i18n support. Inspired by moment.js",
     "type": "library",
     "keywords": [
