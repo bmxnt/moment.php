@@ -12,7 +12,7 @@ return array(
         "sameDay"  => '[Сегодня]',
         "nextDay"  => '[Завтра]',
         "lastDay"  => '[Вчера]',
-        "lastWeek" => '[Прошлой] l',
+        "lastWeek" => 'd.m.Y',
         "sameElse" => 'l',
         "withTime" => '[в] H:i',
         "default"  => 'd.m.Y',
