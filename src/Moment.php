@@ -756,6 +756,7 @@ class Moment extends \DateTime
         if ($diff > 7)
         {
             $localeKeys = array('calendar', 'default');
+            $addTime = true;
         }
         elseif ($diff > 1)
         {
@@ -785,6 +786,7 @@ class Moment extends \DateTime
         else
         {
             $localeKeys = array('calendar', 'default');
+            $addTime = true;
         }
 
         // render format
