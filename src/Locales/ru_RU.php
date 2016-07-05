@@ -13,7 +13,7 @@ return array(
         "nextDay"  => '[Завтра]',
         "lastDay"  => '[Вчера]',
         "lastWeek" => 'd.m.Y',
-        "sameElse" => 'l',
+        "sameElse" => 'd.m.Y',
         "withTime" => '[в] H:i',
         "default"  => 'd.m.Y',
     ),
